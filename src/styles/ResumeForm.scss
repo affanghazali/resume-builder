@@ -1,0 +1,43 @@
+// ResumeForm.scss
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  margin: 0;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+.section-content {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 0 0 5px 5px;
+}
+
+.form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
